@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #0A051B 50%, #754EF9);
+}
+main{
+    width: 70%;
+    max-width: 900px;
+    min-height: 80vh;
+    background-color: #0B051F;
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #04020c;
+    border: 1px solid transparent;
+    padding: 2rem;
+}
+main #apresentacao{
+    width: 100%;
+    height: 50%;
+}
+.azul{
+    color: #5f3eca;
+}
+main #apresentacao header h1{
+    font-size: 1.1rem;
+}
+.ola{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6.5rem;
+}
+.joao{
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 700;
+}
+
+.lorem{
+    color: white;
+    font-size: 0.6rem;
+    width: 16rem;
+    margin-bottom: 1.5rem;
+}
+.fa-linkedin-in{
+    color: #5f3eca;
+}
+.icones-sociais a{
+    color: #5f3eca;
+    margin-right: 0.5rem;
+    margin-top: 40rem;
+    border: 1px solid #5f3eca;
+    border-radius: 100%;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+}
