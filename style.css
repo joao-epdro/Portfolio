@@ -6,7 +6,6 @@
 body{
     max-height: 200vh;
     background-image: linear-gradient(to bottom, #0A051B 50%, #754EF9);
-    overflow: hidden;
 }
 main{
     width: 70%;
