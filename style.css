@@ -246,3 +246,9 @@ header nav {
         float: left;
     }
 }
+@media (max-width:480px){
+    main{
+        width: 100%;
+        margin: 5% auto 0;
+    }
+}
