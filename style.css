@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 html, body{
     max-height: 500vh;
