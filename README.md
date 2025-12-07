@@ -1,3 +1,3 @@
 # Meu Site
 
-Acesse aqui: https://seu-usuario.github.io/nome-do-repositorio/
+Acesse aqui: https://joao-epdro.github.io/Portfolio/
