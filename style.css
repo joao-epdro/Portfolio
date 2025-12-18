@@ -51,7 +51,7 @@ main #apresentacao header h1{
 
 .lorem{
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     max-width: 16rem;
     margin-bottom: 1.5rem;
 }
@@ -66,7 +66,7 @@ main #apresentacao header h1{
     border: 1px solid #5f3eca;
     border-radius: 100%;
     padding: 0.3rem 0.6rem 0.3rem 0.6rem;
-    transition: transform 0.2s ease;
+    transition: 0.3s ease;
 }
 .icones-sociais a:hover{
     border: 1px solid white;
