@@ -8,6 +8,7 @@ html, body{
     max-height: 500vh;
     background-image: linear-gradient(to bottom, #0A051B 50%, #754EF9);
     background-repeat: no-repeat;
+    padding: 0px 0px 2rem 0rem;
 }
 main{
     width: 100%;
@@ -149,7 +150,7 @@ header nav {
 .caixa1 p{
     text-align: center;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .caixa1 h1{
     text-align: center;
@@ -170,7 +171,7 @@ header nav {
 .caixa2 p{
     text-align: center;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .caixa2 h1{
     text-align: center;
@@ -191,7 +192,7 @@ header nav {
 .caixa3 p{
     text-align: center;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .caixa3 h1{
     text-align: center;
