@@ -308,3 +308,16 @@ label{
         overflow-x: hidden;
     }
 }
+@media (max-width:423px){
+    header h1{
+        display: block;
+    }
+    nav a{
+        float: left;
+    }
+}
+@media (max-width:360px){
+    icones-sociais{
+        margin-bottom: 10rem;
+    }
+}
