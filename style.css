@@ -284,6 +284,11 @@ label{
 .tecnologias{
     margin-top: 0.8rem;
 }
+header nav i{
+    display: none !important;
+    font-size: 1.5rem;
+    color: white;
+}
 @media (max-width:480px){
     .resumo-eu{
         margin-left: 0%;
@@ -295,16 +300,16 @@ label{
         padding: 1rem;
     }
 }
-@media (max-width:423px){
-    header h1{
-        display: block;
-    }
-    nav a{
-        float: left;
-    }
-}
 @media (max-width:360px){
     icones-sociais{
         margin-bottom: 10rem;
+    }
+}
+@media (max-width:390px){
+    header nav a{
+        display: none;
+    }
+    header nav i{
+        display: inline-block !important;
     }
 }
