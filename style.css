@@ -237,6 +237,7 @@ label{
 }
 .projetos{
     height: 200px;
+    height: min-content;
     overflow: hidden;
     border-radius: 1rem;
     border: 2px dashed white;
