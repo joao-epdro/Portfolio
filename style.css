@@ -286,9 +286,8 @@ label{
     text-align: center;
     display: inline-block;
 }
-.tecnologias{
+.tecnologias, .tecnologias-2{
     margin-top: 0.8rem;
-    position: absolute;
 }
 header nav i{
     display: none !important;
