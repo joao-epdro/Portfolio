@@ -4,37 +4,36 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --branco: #fff;
+    --azul-profundo: #0B051F;
+    --azul-profundo-claro: #0A051B;
+    --azul-escuro-arroxeado: #462e94;
+    --violeta: #5f3eca;
+    --violeta-profundo: #754EF9;
+}
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 7.5rem;
 }
 html, body{
-    max-height: 500vh;
-    background-image: linear-gradient(to bottom, #0A051B 50%, #754EF9);
+    max-height: 1000vh;
+    background-image: linear-gradient(to bottom, var(--azul-profundo-claro) 50%, var(--violeta-profundo));
     background-repeat: no-repeat;
     padding: 0px 0px 2rem 0rem;
 }
 main{
-    width: 100%;
     max-width: 1000px;
-    max-height: 500vh;
-    background-color: #0B051F;
+    max-height: 1000vh;
+    background-color: var(--azul-profundo);
     border-radius: 10px;
     box-shadow: 0 2px 5px #04020c;
     border: 1px solid transparent;
     padding: 2rem;
     margin: 5% auto 0;
 }
-main #apresentacao{
-    width: 100%;
-    height: 50%;
-}
-main #resumo{
-    width: 100%;
-    height: 50%;
-}
 .azul{
-    color: #5f3eca;
+    color: var(--violeta);
 }
 main #apresentacao header h1{
     font-size: 1.1rem;
@@ -43,47 +42,41 @@ main #apresentacao header h1{
 }
 .ola{
     font-size: 1.6rem;
-    color: white;
+    color: var(--branco);
     font-weight: 600;
-    padding: 0px;
-    margin: 0px;
     margin-top: 6.5rem;
 }
 .joao{
     font-size: 2.6rem;
-    color: white;
+    color: var(--branco);
     font-weight: 700;
 }
-
 .lorem{
-    color: white;
+    color: var(--branco);
     font-size: 0.9rem;
     max-width: 16rem;
     margin-bottom: 1.5rem;
 }
-.fa-linkedin-in{
-    color: #5f3eca;
-}
 #icones-sociais a{
-    color: #5f3eca;
+    color: var(--violeta);
     margin-right: 0.5rem;
     margin-top: 40rem;
     margin-bottom: 1rem;
-    border: 1px solid #5f3eca;
+    border: 1px solid var(--violeta);
     border-radius: 100%;
     padding: 0.3rem 0.6rem 0.3rem 0.6rem;
     transition: 0.3s ease;
 }
 #icones-sociais a:hover{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--branco);
+    color: var(--branco);
     transition: 0.4s;
 }
 #enviar{
     width: 10rem;
     height: 2rem;
-    color: white;
-    background-color: #5f3eca;
+    color: var(--branco);
+    background-color: var(--violeta);
     border: none;
     margin-top: 2rem;
     border-radius: 5px;
@@ -94,14 +87,10 @@ main #apresentacao header h1{
 #enviar:hover{
     transform: scale(1.05);
     transition: 0.3s;
-    background-color: #462e94;
-}
-main #resumo{
-    width: 100%;
-    height: 50%;
+    background-color: var(--azul-escuro-arroxeado);
 }
 main #resumo h1{
-    color: white;
+    color: var(--branco);
 }
 .resumo-eu{
     display: flex;
@@ -110,7 +99,7 @@ main #resumo h1{
     margin-left: 50%;
 }
 header nav a{
-    color: white;
+    color: var(--branco);
     text-decoration: none;
     margin-right: 1.5rem;
     float: right;
@@ -118,39 +107,39 @@ header nav a{
     transition: 0.3s ease;
 }
 header nav a:hover{
-    text-decoration: underline 2px solid #462e94;
+    text-decoration: underline 2px solid var(--azul-escuro-arroxeado);
     text-underline-offset: 0.2rem;
     transition: 0.3s;
-    color: #462e94;
+    color: var(--azul-escuro-arroxeado);
 }
 header nav {
     float: right;
 }
 #lorem2{
-    color: white;
+    color: var(--branco);
     font-size: 0.9rem;
     max-width: 20rem;
     margin-bottom: 10rem;
 }
 .negrito{
-    color: white;
+    color: var(--branco);
     font-weight: bold;
     font-size: 0.9rem;
 }
 .servicos{
-    color: white;
+    color: var(--branco);
     text-align: center;
     font-size: 1.7rem;
     margin-bottom: 3rem;
     margin-top: 7rem;
 }
 .azul{
-    color: #5f3eca;
+    color: var(--violeta);
 }
 .caixa1, .caixa2, .caixa3{
     max-height: 20rem;
-    border-top: 3px solid #5f3eca;
-    border-bottom: 4px solid #5f3eca;
+    border-top: 3px solid var(--violeta);
+    border-bottom: 4px solid var(--violeta);
     border-radius: 7px;
     padding: 1rem;
     overflow-wrap: break-word;
@@ -158,23 +147,23 @@ header nav {
 }
 .caixa1 p, .caixa2 p, .caixa3 p{
     text-align: center;
-    color: white;
+    color: var(--branco);
     font-size: 0.8rem;
 }
 .caixa1 h1, .caixa2 h1, .caixa3 h1{
     text-align: center;
-    color: white;
+    color: var(--branco);
     font-weight: bold;
     font-size: 1rem;
     margin: 0.7rem;
 }
 #contato{
-    color: white;
+    color: var(--branco);
     text-align: center;
     margin-bottom: 5rem;
 }
 #email{
-    background-color: white;
+    background-color: var(--branco);
     border: none;
     border-radius: 5px;
     width: 15rem;
@@ -184,14 +173,14 @@ header nav {
     margin-right: 1rem;
 }
 label{
-    color: white;
+    color: var(--branco);
     margin-right: 2rem;
 }
 #enviar2{
     width: 10rem;
     height: 2rem;
-    color: white;
-    background-color: #5f3eca;
+    color: var(--branco);
+    background-color: var(--violeta);
     border: none;
     margin-top: 2rem;
     border-radius: 5px;
@@ -202,7 +191,7 @@ label{
 #enviar2:hover{
     transform: scale(1.05);
     transition: 0.3s;
-    background-color: #462e94;
+    background-color: var(--azul-escuro-arroxeado);
 }
 #container{
     display: grid;
@@ -210,13 +199,13 @@ label{
     gap: 2rem 1rem;
 }
 .fixo{
-    color: #462e94;
-    text-decoration: underline 2px solid #462e94;
+    color: var(--azul-escuro-arroxeado);
+    text-decoration: underline 2px solid var(--azul-escuro-arroxeado);
     text-underline-offset: 0.2rem;
 }
 .resumo-projetos{
     max-width: 350px;
-    color: white;
+    color: var(--branco);
     margin-bottom: 3rem;
 }
 .container-projetos{
@@ -226,7 +215,7 @@ label{
     row-gap: 20px;
 }
 .container-projetos p, h1{
-    color: white;
+    color: var(--branco);
 }
 .container-projetos h1{
     font-size: 1.1rem;
@@ -240,7 +229,7 @@ label{
     height: min-content;
     overflow: hidden;
     border-radius: 1rem;
-    border: 2px dashed white;
+    border: 2px dashed var(--branco);
     transition: transform 0.3s ease;
 }
 .projetos:hover{
@@ -257,8 +246,8 @@ label{
     margin-top: 1.5rem;
 }
 .tech-1{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--branco);
+    color: var(--branco);
     margin: 0px;
     padding: 5px;
     width: 50px;
@@ -269,16 +258,16 @@ label{
 }
 .tech-1:hover{
     cursor: pointer;
-    border: 1px solid #462e94;
+    border: 1px solid var(--azul-escuro-arroxeado);
 }
 .tech-2:hover{
     cursor: pointer;
-    border: 1px solid #462e94;
+    border: 1px solid var(--azul-escuro-arroxeado);
     transition: 0.2s;
 }
 .tech-2{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--branco);
+    color: var(--branco);
     margin: 0px;
     padding: 5px;
     width: 50px;
@@ -292,7 +281,7 @@ label{
 header nav i{
     display: none !important;
     font-size: 1.5rem;
-    color: white;
+    color: var(--branco);
 }
 @media (max-width:480px){
     .resumo-eu{
